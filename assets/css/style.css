@@ -1,0 +1,42 @@
+/* font-family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Literata', serif;
+ */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url(../fonts/Literata/Literata-VariableFont_opsz\,wght.ttf);
+}
+
+h1{
+    color: red;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: red;
+    font-family: 'Literata', serif;
+}
+
+img{
+    width: 100px;
+    border: 10px solid green;
+    border-radius: 100px;
+}
+
+div{
+    background-color: darkgrey;
+}
+
+div p:first-of-type{
+    color: green;
+}
